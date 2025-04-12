@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('imm1.jpg') no-repeat center center/cover; 
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.text-section {
+    max-width: 50%;
+}
+
+.text-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.text-section .highlight {
+    color: #ffd700; /* Jaune pour "ANAE" */
+}
+
+.text-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.text-section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.text-section ul li:before {
+    content: "✔";
+    color: #00ff00; /* Vert pour les coches */
+    position: absolute;
+    left: 0;
+}
+
+.call-to-action {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.image-section {
+    max-width: 50%; 
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+}
+

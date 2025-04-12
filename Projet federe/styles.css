@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .logo {
+    background-color: white;
+    color: #0e0e4d;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .contact-btn {
+    background-color: white;
+    color: #0e0e4d;
+    padding: 6px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-btn:hover {
+    background-color: #ddd;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('image.jpg') no-repeat center center/cover;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+  }
+  
+  .text-box {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .main-text h1 {
+    margin: 0;
+    font-size: 60px;
+    line-height: 1.1;
+  }
+  
+  .subtitle {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .yellow {
+    color: #ffeb00;
+    font-weight: bold;
+  }
+  
+  .exclam {
+    font-size: 70px;
+  }
+  
